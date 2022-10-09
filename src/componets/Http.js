@@ -9,6 +9,7 @@ class Http extends Component {
          errorMsg: ''
       }
     }
+  
     componentDidMount(){
         axios.get('https://jsonplaceholder.typicode.com/posts')
         .then(response => {
