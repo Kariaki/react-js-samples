@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import axios from '../../my-app/node_modules/axios'
+import axios from 'axios'
 class PostForm extends Component {
     constructor(props) {
       super(props)
